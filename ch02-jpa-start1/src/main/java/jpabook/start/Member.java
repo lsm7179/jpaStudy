@@ -17,6 +17,7 @@ public class Member {
     @Column(name = "NAME")
     private String username;
 
+    //매핑 정보가 없는 필드
     private Integer age;
 
     public String getId() {
