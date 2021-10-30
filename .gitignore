@@ -1,5 +1,11 @@
-/.idea/.gitignore
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/runConfigurations.xml
-/.idea/vcs.xml
+/ch02-jpa-start1/ch02-jpa-start1.iml
+/ch04-jpa-start2/ch04-jpa-start2.iml
+/ch04-model1/ch04-model1.iml
+/ch05-model2/ch05-model2.iml
+/ch06-model3/ch06-model3.iml
+/ch07-model4/ch07-model4.iml
+/ch08-model5/ch08-model5.iml
+/ch09-model6/ch09-model6.iml
+/ch11-jpa-shop/ch11-jpa-shop.iml
+/ch12-springdata-shop/ch12-springdata-shop.iml
+/.idea/
