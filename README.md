@@ -23,3 +23,4 @@ https://github.com/holyeye/jpabook
 
 - h2 데이터베이스를 실행한 다음에 웹브라우저에 `http://localhost:8082`를 입력해도 접속이 되지 않으면, localhost 대신에 127.0.0.1 IP를 직접 입력하세요. `http://127.0.0.1:8082`
 
+### m1 mac h2 db 설치 : https://www.youtube.com/watch?v=e_XUDkMrH6M
