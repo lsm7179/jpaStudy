@@ -3,8 +3,8 @@ package jpabook.jpashop.repository.custom;
 import com.mysema.query.jpa.JPQLQuery;
 import jpabook.jpashop.domain.Order;
 import jpabook.jpashop.domain.OrderSearch;
-import jpabook.jpashop.domain.QMember;
-import jpabook.jpashop.domain.QOrder;
+//import jpabook.jpashop.domain.QMember;
+//import jpabook.jpashop.domain.QOrder;
 import org.springframework.data.jpa.repository.support.QueryDslRepositorySupport;
 import org.springframework.util.StringUtils;
 
@@ -22,7 +22,7 @@ public class OrderRepositoryImpl extends QueryDslRepositorySupport implements Cu
     @Override
     public List<Order> search(OrderSearch orderSearch) {
 
-        QOrder order = QOrder.order;
+       /* QOrder order = QOrder.order;
         QMember member = QMember.member;
 
         JPQLQuery query = from(order);
@@ -36,6 +36,7 @@ public class OrderRepositoryImpl extends QueryDslRepositorySupport implements Cu
             query.where(order.status.eq(orderSearch.getOrderStatus()));
         }
 
-        return query.list(order);
+        return query.list(order);*/
+        return null;
     }
 }
