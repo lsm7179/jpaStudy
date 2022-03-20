@@ -12,3 +12,20 @@
 /ch08-model5/target/
 /ch11-jpa-shop/target/
 /lib/
+
+HELP.md
+/ch14_15_16/.gradle
+/ch14_15_16/build/
+/ch14_15_16/!gradle/wrapper/gradle-wrapper.jar
+/ch14_15_16/!**/src/main/**/build/
+/ch14_15_16/!**/src/test/**/build/
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
